@@ -24,39 +24,35 @@ body {
 }
 
 .container {
-  width: 280px;
+  width: 270px;
   height: 430px;
   background-color: var(--container-bg-color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
-  justify-content: space-around;
+  text-align: center;
 }
 
 .img {
   width: 250px;
   height: 250px;
   border-radius: 15px;
+  margin: 10px 10px 20px;
 }
 
-.info-section {
-  width: 230px;
-  height: 120px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-h3 {
+h1 {
   color: var(--header-text-color-dark-blue);
   font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  width: 240px;
+  margin-bottom: 10px;
 }
 p {
   color: var(--paragrah-color-grayish-blue);
   font-size: 15px;
-  margin: 10px 0;
   font-weight: 400;
+  text-align: center;
+  width: 240px;
 }
